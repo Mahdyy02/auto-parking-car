@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 import airsim
 import gymnasium as gym
@@ -28,3 +29,35 @@ class AirSimEnv(gym.Env):
 
     def render(self):
         return self._get_obs()
+=======
+import numpy as np
+import airsim
+import gymnasium as gym
+from gymnasium import spaces
+
+
+class AirSimEnv(gym.Env):
+    metadata = {"render.modes": ["rgb_array"]}
+
+    def __init__(self, image_shape):
+        self.observation_space = spaces.Box(0, 255, shape=image_shape, dtype=np.uint8)
+        self.viewer = None
+
+    def __del__(self):
+        raise NotImplementedError()
+
+    def _get_obs(self):
+        raise NotImplementedError()
+
+    def _compute_reward(self):
+        raise NotImplementedError()
+
+    def close(self):
+        raise NotImplementedError()
+
+    def step(self, action):
+        raise NotImplementedError()
+
+    def render(self):
+        return self._get_obs()
+>>>>>>> 01cdaa58d9b2812ef465bed3c21fe5ecb0cc57fb

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 python collect_episodes.py--auto --n_episodes 50 --reset_at_end
 
 python train_bc.py --data_dir data/episodes --epochs 20 --batch 64
@@ -5,4 +6,13 @@ python train_bc.py --data_dir data/episodes --epochs 20 --batch 64
 
 python finetune_ppo_custom.py --bc_policy data/episodes/policy_bc.pt --lr 1e-4
 
+=======
+python collect_episodes.py--auto --n_episodes 50 --reset_at_end
+
+python train_bc.py --data_dir data/episodes --epochs 20 --batch 64
+
+
+python finetune_ppo_custom.py --bc_policy data/episodes/policy_bc.pt --lr 1e-4
+
+>>>>>>> 01cdaa58d9b2812ef465bed3c21fe5ecb0cc57fb
 python replay_trajectory.py --trajectory data/trajectories/my_path.pkl
