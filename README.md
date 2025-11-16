@@ -91,8 +91,6 @@ License and attribution
 -----------------------
 This project uses `highway-env` and `AirSim`. Respect the licenses of those projects when reusing code or assets.
 
-Contact / Notes
----------------
-If you want, I can: add links from the notebook to these READMEs, generate a `requirements.txt`, or prepare a short migration checklist script.
 =======
+
 
