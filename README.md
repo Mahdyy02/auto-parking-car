@@ -4,7 +4,7 @@
 This repository demonstrates a progression from a 2D model-based reinforcement learning parking task (using `highway-env`) to a 3D environment using AirSim and a custom gym-compatible wrapper.
 
 
-![AirSim Environment](airsim_demo.jpg?raw=true "AirSim Environment")
+[![AirSim Environment](https://img.youtube.com/vi/oDfU5S4bUr4/0.jpg)](https://www.youtube.com/watch?v=oDfU5S4bUr4)
 
 Purpose
 -------
@@ -95,6 +95,7 @@ License and attribution
 This project uses `highway-env` and `AirSim`. Respect the licenses of those projects when reusing code or assets.
 
 =======
+
 
 
 
